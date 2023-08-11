@@ -1,0 +1,209 @@
+/* Common Elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+}
+
+.hr1{
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    margin: 0;
+    opacity: 1;
+}
+
+.maintitle{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkolivegreen;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.subtitle1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    font-size: 20px;
+    text-align: center;   
+}
+
+/* Navigation Bar CSS Starts Here */
+
+#navbar{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    position: sticky; 
+    top: 0;
+}
+
+/* Logo  */
+
+#logo{
+    width: 15%;
+}
+
+
+#logoimg{
+    height: 80px;
+    margin: 12px 40px;
+    border-radius: 20px;
+}
+
+/* Navigation links  */
+
+#navlinks{
+    width: 60%;
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    justify-content: center
+}
+
+.linkitem{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.linka:hover{
+    background-color:  darkolivegreen;
+    color: white;
+    transition: 1s;
+}
+
+#icons{
+    margin-left: 200px;
+}
+
+#icons img:hover{
+    transform: scale(1.2);
+
+    transition: 1s;
+}
+
+
+
+
+
+
+#homecontent{
+    background-image: url(image\ for\ hompage.jpg);
+    height: 550px;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.maintitle{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+.h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    text-align: center;
+
+}
+
+#footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* about page */
+#abouthome{
+background-image: url(aboutus.png);
+height: 700px;
+background-size: cover;
+background-position: bottom;
+
+
+}
+
+/* products page */
+.productsdis{
+    display: flex;
+    justify-content: center;
+}
+
+.productsdis img{
+    height: 500px;
+}
+
+
+
+/* Contact Us CSS Starts Here */
+
+#paya{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    font-size: 65px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#contactform{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#contactform input{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkolivegreen;
+}
+
+#contactform input[type=submit]{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkolivegreen;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+
+.formgroup{
+    width: 500px;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+#contactform input[type=radio], #contactform input[type=checkbox] {
+    width: auto;
+}
+/* Contact Us CSS Ends Here */
